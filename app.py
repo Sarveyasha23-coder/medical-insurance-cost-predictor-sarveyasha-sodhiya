@@ -24,7 +24,7 @@ html, body, [class*="css"] {
 }
 
 .stApp {
-    background:  linear-gradient(135deg, #fef08a, #fed7aa, #fbcfe8);
+    background:  linear-gradient(135deg, #e0f2fe, #ccfbf1, #f0fdf4);
     background-size: cover;
     color: white;
 }
