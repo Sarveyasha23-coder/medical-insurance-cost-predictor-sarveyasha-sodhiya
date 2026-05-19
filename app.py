@@ -105,6 +105,26 @@ div.stButton > button:hover {
     color: #ffffff !important;
 }
 
+/* Selectbox dropdown options - make text visible */
+[data-testid="stSelectbox"] div[role="listbox"] {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+[data-testid="stSelectbox"] div[role="option"] {
+    color: #1a1a2e !important;
+    background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+[data-testid="stSelectbox"] div[role="option"]:hover {
+    background-color: #e0f2fe !important;
+    color: #1a1a2e !important;
+}
+
+/* Selectbox input area text */
+[data-testid="stSelectbox"] div > div {
+    color: #1a1a2e !important;
+}
+
 /* Subheader color */
 .stSubheader {
     color: #ffffff !important;
