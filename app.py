@@ -93,13 +93,6 @@ div.stButton > button:hover {
 [data-testid="stSelectbox"] {
     border-radius: 12px;
 }
-
-/* White font for Age, BMI, Children, Gender only */
-.stNumberInput label,
-.stNumberInput input,
-.stSelectbox label {
-    color: white !important;
-}
 </style>
 """, unsafe_allow_html=True)
 
