@@ -24,9 +24,9 @@ html, body, [class*="css"] {
 }
 
 .stApp {
-    background:  linear-gradient(135deg, #0b0f19, #1e293b, #334155);
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
     background-size: cover;
-    color: white;
+    color: #ffffff;
 }
 
 .main-title {
@@ -40,17 +40,18 @@ html, body, [class*="css"] {
 .subtitle {
     text-align: center;
     font-size: 1.15rem;
-    color: #dbeafe;
+    color: #e0f2fe;
     margin-bottom: 30px;
 }
 
 .glass-card {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(30, 30, 50, 0.8);
     border-radius: 20px;
     padding: 25px;
     backdrop-filter: blur(12px);
     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
     margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .result-box {
@@ -89,9 +90,29 @@ div.stButton > button:hover {
     background: linear-gradient(90deg, #2563eb, #0891b2);
 }
 
+/* Input and Select styling for visibility */
 [data-testid="stNumberInput"] input,
-[data-testid="stSelectbox"] {
+[data-testid="stSelectbox"] select {
     border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    color: #1a1a2e !important;
+    border: 2px solid #3b82f6 !important;
+}
+
+[data-testid="stNumberInput"] label,
+[data-testid="stSelectbox"] label,
+[data-testid="stSelectbox"] > div > div {
+    color: #ffffff !important;
+}
+
+/* Subheader color */
+.stSubheader {
+    color: #ffffff !important;
+}
+
+/* Ensure placeholder text is visible */
+[data-testid="stNumberInput"] input::placeholder {
+    color: #666666 !important;
 }
 </style>
 """, unsafe_allow_html=True)
