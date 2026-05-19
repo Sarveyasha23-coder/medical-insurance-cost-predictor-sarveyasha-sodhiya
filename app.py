@@ -11,8 +11,8 @@ st.set_page_config(
 )
 
 # ---------------- LOAD MODEL ----------------
-model = pickle.load(open("model (10)", "rb"))
-scaler = pickle.load(open("scaler (20)", "rb"))
+model = pickle.load(open("model (10).pkl", "rb"))
+scaler = pickle.load(open("scaler (20).pkl", "rb"))
 
 # ---------------- CUSTOM CSS ----------------
 st.markdown("""
